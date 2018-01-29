@@ -1,6 +1,7 @@
 $( document ).ready(function() {
                 
                 $("#about_scroll").fadeOut();   
+		$("#blog_scroll").fadeOut();  
                 $("#work_scroll").fadeOut();
                 $("#contact_scroll").fadeOut();
 
@@ -9,6 +10,12 @@ $( document ).ready(function() {
                     $("#about_scroll").fadeIn();
                     $('#about_left').addClass('animated slideInLeft');
                     $('#about_right').addClass('animated slideInRight');
+                    });
+                $("#blog").click(function(){
+                    $("#index").fadeOut();
+                    $("#blog_scroll").fadeIn();
+                    $('#blog_left').addClass('animated slideInLeft');
+                    $('#blog_right').addClass('animated slideInRight');
                     });
                 $("#work").click(function(){
                     $("#index").fadeOut();
