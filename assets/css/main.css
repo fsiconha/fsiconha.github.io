@@ -1,6 +1,6 @@
 body{
 	background-color: #DDDDDD;
-	font-family: "Ubuntu";
+	font-family: "Molengo";
 }
 
 .main{
@@ -10,7 +10,7 @@ body{
 .home-description{
 	font-style: italic;
 	font-weight: 600;
-	font-family: "Ubuntu";
+	font-family: "Molengo";
 	font-size: 19px;
     padding-top: 15px;
     padding-bottom: 25px;
@@ -52,7 +52,7 @@ body{
     	}
 
     	.info{
-			font-family: "Ubuntu";
+			font-family: "Molengo";
 			line-height: 28px;
 		    font-size: 16px;
 		    padding-top: 15px;
@@ -76,7 +76,7 @@ body{
 	border-radius: 0px !important;
 	transition: all 0.4s ease-in-out;
 	margin-bottom: 20px;
-	font-family: "Ubuntu";
+	font-family: "Molengo";
 	font-size: 13.5px;
 	}
 
@@ -116,7 +116,7 @@ footer{
 
 .back{
     width: 170px;    
-    font-family: "Ubuntu";
+    font-family: "Molengo";
     font-size: 17px;
     font-style: italic;
     vertical-align: middle;
@@ -159,7 +159,7 @@ footer{
 .form-control{
 	font-style: italic;
 	border-radius: 0;
-	font-family: "Ubuntu";
+	font-family: "Molengo";
 	font-size: 16px;
 }
 
@@ -202,7 +202,7 @@ footer{
 
 .submit{
 
-	font-family: "Ubuntu"
+	font-family: "Molengo"
 	font-size: 16px;
 }
 
@@ -212,7 +212,7 @@ footer{
 	font-size: 20px;
 	color: #3b3b3b;
 	line-height: 28px;
-	font-family: "Ubuntu";
+	font-family: "Molengo";
 	margin-top: 15px;
 	margin-bottom: 15px;
 	padding-right: 40px;
