@@ -21,17 +21,10 @@ var LatexIT = {
 	imgnum : 0,
 	isFirefox:false,
 	init : function() {
-		// We need to review the support for SVG. Latest released versions are not supporting this as they should
-  //  if(document.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#BasicStructure", "1.1"))
-	//	  this.mode='svg';
-
-    // browser name
-		// svg support in FireFox is not allowing two images to occur currently on the same line. 
 		
 		var ua = navigator.userAgent.toLowerCase(); 
 		if(ua.indexOf("firefox")!=-1)
 		{
-      // this.isFirefox = true;
 		}
   },
 
@@ -41,9 +34,6 @@ var LatexIT = {
 			//Clean code
 			txt=txt.replace(/<br>/mgi,"");
 			txt=txt.replace(/<br \/>/mgi,"");
-			//Create img tag
-		//	txt = " <img src=\"http://latex.codecogs.com/"+this.mode+".latex?"+ txt +"\" /> ";
-		//	txt = " <object type=\"image/svg+xml\" width=\"20\" data=\"http://latex.codecogs.com/"+this.mode+".latex?"+ txt +"\" /> ";
 		  
 		  if(this.mode=='svg')  
 			{
@@ -51,7 +41,6 @@ var LatexIT = {
 				if(this.isFirefox) 
   		   	txt = " <object type=\"image/svg+xml\" data=\"http://latex.codecogs.com/"+this.mode+".latex?"+ txt +"\" class=\"latex\" style=\"margin:0; padding:0; border:0\" /> ";
 				else // Best for Chrome
-  		   //	txt = " <object type=\"image/svg+xml\" data=\"http://latex.codecogs.com/"+this.mode+".latex?"+ txt +"\" class=\"latex\" /> ";
 					txt = " <img src=\"http://latex.codecogs.com/"+this.mode+".latex?"+ txt +"\" alt=\""+ txt +"\" title=\""+ txt +"\" border=\"0\" class=\"latex\" /> ";
 			}
 			else 
