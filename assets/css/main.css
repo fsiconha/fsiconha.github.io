@@ -1,10 +1,12 @@
 body{
 	background-color: #DDDDDD;
 	font-family: "Ubuntu";
+	overflow:auto;
 }
 
 .main{
 	background: #FFFFFF;
+	overflow:auto;
 }
 
 .home-description{
